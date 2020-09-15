@@ -3,5 +3,8 @@
 
 body {
   font-family: "Georgia", serif
-  color: black;
+  color: #000000;
+  line-height: 140%;
+  margin: 30px;
+
 }

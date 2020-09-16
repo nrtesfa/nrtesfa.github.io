@@ -10,7 +10,6 @@ body {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-color: #F7F3DE;
-
 }
 header h1 {
   font-size: 350%;
@@ -18,4 +17,12 @@ header h1 {
   padding: 40px 40px 40px 120px;
   background-image: url("header-image-1.gif");
   background-repeat: no-repeat;
+}
+#container {
+  margin-bottom: 30px;
+}
+nav {
+float: left;
+width: 150px;
+
 }

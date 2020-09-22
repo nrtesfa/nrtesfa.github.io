@@ -50,7 +50,7 @@ nav a {
 nav a:hover {
   background-color: #7C1A00;
 }
-#content article {
+#article {
   background-image: url("trans-bg.gif");
   border: 1px solid #CCCCCC;
   margin-left: 180px;
@@ -75,7 +75,7 @@ global h2 {
 global h3 {
   background-image: url("header-image-1.gif");
   background-repeat: no-repeat;
-  padding-left: 20px;  
+  padding-left: 20px;
 }
 global blockquote{
   background-color: #FFE597;

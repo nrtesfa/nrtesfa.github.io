@@ -1,110 +1,106 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8" />
-    <title>CSS Designer</title>
-    <link href="styles.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <header>
-      <h1>CSS Designer</h1>
-    </header>
-    <section id="container">
-      <nav>
-        <ul>
-          <li><a href="#">Page 1</a></li>
-          <li><a href="#">Page 2</a></li>
-          <li><a href="#">Page 3</a></li>
-          <li><a href="#">Page 4</a></li>
-          <li><a href="#">Page 5</a></li>
-        </ul>
-      </nav>
-      <article id="content">
-        <h1>Here is a heading of level 1</h1>
-        <p>
-          Here is a paragraph. Lorem ipsum dolor consetetur sadipscing elitr,
-          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
-          aliquyam erat, At vero eos et accusam et justo duo dolores et ea
-          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
-          ipsum dolor sit amet.
-        </p>
-        <h2>Here is a heading of level 2</h2>
-        <p>
-          Here is a paragraph. Lorem ipsum dolor
-          <a href="unvisitedpage.html">unvisited link</a>, consetetur sadipscing
-          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-          magna aliquyam erat, <strong>&lt;strong&gt; text</strong>. At vero eos
-          et accusam et justo duo dolores et ea rebum. Stet clita kasd
-          gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-          Lorem ipsum dolor sit amet, <em>&lt;em&gt; text</em> consetetur
-          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-          amet, consetetur sadipscing elitr, <a href="#">visited link</a> eirmod
-          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
-          voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
-          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
-          dolor sit amet.
-        </p>
-        <h3>Here is a heading of level 3</h3>
-        <p>
-          Here is another paragraph. Lorem ipsum dolor
-          <a href="unvisitedpage.html">unvisited link</a>, consetetur sadipscing
-          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-          justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-          amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-          amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-          <a href="#">visited link</a> eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-        <h4>Here is a heading of level 4</h4>
-        <ul>
-          <li>here is an entry in an unordered list</li>
-          <li>here is another entry in an unordered list</li>
-          <li>here is the last item in the unordered list</li>
-        </ul>
-        <h5>Here is a heading of level 5</h5>
-        <ol>
-          <li>here is an entry in an ordered list</li>
-          <li>here is another entry in an ordered list</li>
-          <li>here is the last item in the unordered list</li>
-        </ol>
-        <h6>Here is a heading of level 6</h6>
-        <blockquote>
-          This is a blockquoted piece of text (that is marked&nbsp; up with
-          &lt;blockquote&gt;)
-        </blockquote>
-        <p>
-          And here is the last paragraph. Lorem ipsum dolor
-          <a href="unvisitedpage.html">unvisited link</a>, consetetur sadipscing
-          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
-          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
-          justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
-          amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
-          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
-          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
-          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
-          amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
-          <a href="#">visited link</a> eirmod tempor invidunt ut labore et
-          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
-          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
-          takimata sanctus est Lorem ipsum dolor sit amet.
-        </p>
-      </article>
-    </section>
-    <footer>
-      <ul>
-        <li>Copyright &copy; 2020</li>
-      </ul>
-    </footer>
-  </body>
-</html>
+@charset "utf-8";
+/*CSS Document*/
+
+body {
+  font-family: Georgia, serif;
+  color: black;
+  line-height: 1.4em;
+  margin: 30px;
+  background-image: url('./images/page-bg.gif');
+  background-attachment: fixed;
+  background-color: #f7f3de;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  font-size: 350%;
+  color: #7c1a00;
+  padding: 40px;
+  padding-left: 120px;
+  background-image: url('./images/header-image-1.gif');
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+
+#container {
+  margin-bottom: 30px;
+}
+
+nav {
+  float: left;
+  width: 150px;
+}
+nav ul {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  color: #7c1a00;
+}
+nav li {
+  margin: 10px;
+  border: solid 1px;
+  border-color: #7c1a00;
+  background-color: #ffe597;
+}
+
+nav a {
+  color: white;
+  background-color: #8c9273;
+  padding: 3px;
+  padding-right: 60px;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #7c1a00;
+}
+
+#content {
+  background-image: url('./images/trans-bg.gif');
+  border: solid 1px;
+  margin-left: 180px;
+  padding: 10px;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+footer li {
+  display: inline;
+  padding: 10px;
+}
+
+h1 {
+  color: #8c9273;
+}
+
+h2 {
+  border-left: solid 20px #8c9273;
+  border-bottom: solid 5px #8c9273;
+  padding-left: 5px;
+}
+
+h3 {
+  background-image: url('./images/header-star-1.gif');
+  background-repeat: no-repeat;
+  padding-left: 20px;
+}
+
+blockquote {
+  background-color: #ffe597;
+}
+
+ul {
+  list-style-type: square;
+}
+
+a {
+  color: #7c1a00;
+  font-weight: bold;
+}
+
+a:hover {
+  background-color: #ffe597;
+}

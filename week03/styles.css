@@ -1,93 +1,110 @@
-@charset "utf-8";
-/* CSS Document */
-
-body {
-  font-family: "Georgia", serif;
-  color: #000000;
-  line-height: 140%;
-  margin: 30px;
-  background-image: url("page-bg.gif");
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-color: #F7F3DE;
-}
-header h1 {
-  font-size: 350%;
- color:#7C1A00;
-  padding: 40px 40px 40px 120px;
-  background-image: url("header-image-1.gif");
-  background-repeat: no-repeat;
-}
-#container {
-  margin-bottom: 30px;
-}
-nav {
-float: left;
-width: 150px;
-
-}
-
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style-type:none;
-  color: #7C1A00;
-
-}
-nav li{
-  margin: 10px;
-  border: 1px;
-  border-style: solid;
-  border-color: #7C1A00;
-  background-color: #FFE597;
-}
-nav a {
-  color: white;
-  background-color: #8C9273;
-  padding: 3px 60px 3px 3px;
-  text-decoration: none;
-}
-nav a:hover {
-  background-color: #7C1A00;
-}
-#article {
-  background-image: url("trans-bg.gif");
-  border: 1px solid #CCCCCC;
-  margin-left: 180px;
-  padding: 10px;
-}
-footer {
-  clear: both;
-  text-align: center;
-}
-footer li{
-  display: inline;
-  padding: 10px;
-}
-global h1{
-color: #8C9273;
-}
-global h2 {
-  border-left: 20px solid #8C9273
-  border-bottom: 5px solid #8C9273
-  padding-left: 5px;
-}
-global h3 {
-  background-image: url("header-image-1.gif");
-  background-repeat: no-repeat;
-  padding-left: 20px;
-}
-global blockquote{
-  background-color: #FFE597;
-
-}
-ul{
-  list-style-type: square;
-}
-global a {
-  color: #7C1A00;
-  font-weight: bold;
-}
-global a: {
-  background-color: #FFE597;
-}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>CSS Designer</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Designer</h1>
+    </header>
+    <section id="container">
+      <nav>
+        <ul>
+          <li><a href="#">Page 1</a></li>
+          <li><a href="#">Page 2</a></li>
+          <li><a href="#">Page 3</a></li>
+          <li><a href="#">Page 4</a></li>
+          <li><a href="#">Page 5</a></li>
+        </ul>
+      </nav>
+      <article id="content">
+        <h1>Here is a heading of level 1</h1>
+        <p>
+          Here is a paragraph. Lorem ipsum dolor consetetur sadipscing elitr,
+          sed diam nonumy eirmod tempor invidunt ut labore et dolore magna
+          aliquyam erat, At vero eos et accusam et justo duo dolores et ea
+          rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+          ipsum dolor sit amet.
+        </p>
+        <h2>Here is a heading of level 2</h2>
+        <p>
+          Here is a paragraph. Lorem ipsum dolor
+          <a href="unvisitedpage.html">unvisited link</a>, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+          magna aliquyam erat, <strong>&lt;strong&gt; text</strong>. At vero eos
+          et accusam et justo duo dolores et ea rebum. Stet clita kasd
+          gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+          Lorem ipsum dolor sit amet, <em>&lt;em&gt; text</em> consetetur
+          sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+          amet, consetetur sadipscing elitr, <a href="#">visited link</a> eirmod
+          tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+          voluptua. At vero eos et accusam et justo duo dolores et ea rebum.
+          Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum
+          dolor sit amet.
+        </p>
+        <h3>Here is a heading of level 3</h3>
+        <p>
+          Here is another paragraph. Lorem ipsum dolor
+          <a href="unvisitedpage.html">unvisited link</a>, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+          justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+          amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+          amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+          <a href="#">visited link</a> eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+        <h4>Here is a heading of level 4</h4>
+        <ul>
+          <li>here is an entry in an unordered list</li>
+          <li>here is another entry in an unordered list</li>
+          <li>here is the last item in the unordered list</li>
+        </ul>
+        <h5>Here is a heading of level 5</h5>
+        <ol>
+          <li>here is an entry in an ordered list</li>
+          <li>here is another entry in an ordered list</li>
+          <li>here is the last item in the unordered list</li>
+        </ol>
+        <h6>Here is a heading of level 6</h6>
+        <blockquote>
+          This is a blockquoted piece of text (that is marked&nbsp; up with
+          &lt;blockquote&gt;)
+        </blockquote>
+        <p>
+          And here is the last paragraph. Lorem ipsum dolor
+          <a href="unvisitedpage.html">unvisited link</a>, consetetur sadipscing
+          elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore
+          magna aliquyam erat, sed diam voluptua. At vero eos et accusam et
+          justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit
+          amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor
+          invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.
+          At vero eos et accusam et justo duo dolores et ea rebum. Stet clita
+          kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+          amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr,
+          <a href="#">visited link</a> eirmod tempor invidunt ut labore et
+          dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam
+          et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea
+          takimata sanctus est Lorem ipsum dolor sit amet.
+        </p>
+      </article>
+    </section>
+    <footer>
+      <ul>
+        <li>Copyright &copy; 2020</li>
+      </ul>
+    </footer>
+  </body>
+</html>

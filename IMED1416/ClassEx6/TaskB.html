@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Task B </title>
+<script>
+    function myFunction1(){
+        document.getElementById("demo2").innerHTML = "Paragraph written in JavaScript in Head section."
+    }
+</script>
+</head>
+<body>
+<!--Task B part 1 start here--> 
+<h2>JavaScript in the Body of HTML</h2>
+<p id="demo1"></p>
+<script>
+document.getElementById("demo1").innerHTML = "My First JavaScript in HTML section."
+</script>
+<hr>
+<!--Task B part 1 end here-->
+<!--Task B part 2 start here-->
+<h2> JavaScript function in the Head section of HTML page.</h2>
+<p id="demo2">A simple paragraph.</p>
+
+<button type="button" onclick="myFunction1()">Click here to call the function call the myFunction from Head Section.</button>
+<hr>
+<!--Task B part 2 end here-->
+<!--Task B part 3 start here-->
+<h2>JavaScript in body section</h2>
+<p id="demo3"> A paragraph from the function in body section.</p>
+
+<button type="button" onclick="myFunction2()">Click here to call the myFunction from Body Section.</button>
+<script>
+function myFunction2(){
+    document.getElementById("demo3").innerHTML = "Function in the body, paragraph is changed."
+}
+</script>
+<hr>
+<!--Task B part 3 end here-->
+<!--Task B part 4 start here-->
+<h2> External JavaScript File</h2>
+<p id="demo4"> A paragraph before the click to change.</p>
+<button type="button" onclick="myFunction3()">Click Me and see the change!</button>
+<p>(myFunction2 is stored in an external file called "myScript.js")></p>
+
+<script src="myScripts.js"></script>
+<hr>
+<!--Task B part 4 end here-->
+<!--Task B part 5 start here-->
+<h2>External JavaScript file from web server</h2>
+<p id="demo"> A paragraph before the click to change. </p>
+<button type="button" onclick="myFunction()">Click Me and see the change!</button>
+<p>(myFunction3 is stored in an external file called "myScript.js" on web server.)></p>
+<script src="myScript.js">
+src="https://www.mmlab2.rlc.dcccd.edu/imed1316n02/docs/myScript.js"
+</script>
+<hr>
+<!--Task B part 5 end here-->
+<a href="../index.html">Back to Index Page</a>
+</body>
+</html>

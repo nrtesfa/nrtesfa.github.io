@@ -8,7 +8,7 @@ public class Main {
     // Declaring variables that will be calculated
     int total_Calories, calorie_per_cookie;
     //Gather input
-    System.out.println("How many cookies did you eat?");
+    System.out.print("How many cookies did you eat? ");    
     int cookies_Eat = Cookie.nextInt();
     if (cookies_Eat >= 2 & cookies_Eat <= 8) {
       calorie_per_cookie = 100;
